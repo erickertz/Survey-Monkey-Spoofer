@@ -3,8 +3,8 @@
 class SurveyMonkeySpoof
 {
 
-	private $surveyUrl = "https://www.surveymonkey.com/r/";
 	private $isPrevious = false;
+	private $surveyUrl;
 	private $surveyId;
 	private $surveyQuestionId;
 	private $surveyAnswerId;
